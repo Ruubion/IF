@@ -2,10 +2,12 @@
     <head>
         <script>
             
-            var age = prompt("Ålder: "), film;
+            var age = prompt("Ålder: "), film, gender = prompt ("Kön: ");
             
             if(age < 7){
-                film = ("Pettson och Findus");
+                if(gender == "man"){
+                    film = ("Pettson och Findus");
+                
             }else if(age < 14){
                 film = "Frost";
             }else if(age < 21){
@@ -15,6 +17,7 @@
             }else{
                 film = "Sjunde inseglet";
             }
+            }
             
             
             alert("Rekommenderad film: " + film);
@@ -23,9 +26,6 @@
         </script>
     </head>
     <body>
-        <script>
-            if(x <= 12)
-        </script> 
     </body>
 
 </html>
