@@ -7,9 +7,12 @@
             if(age < 7){
                 if(gender == "man"){
                     film = ("Pettson och Findus");
+                }
                 
             }else if(age < 14){
-                film = "Frost";
+                if(gender == "man"){
+                    film = "Frost";
+                }
             }else if(age < 21){
                 film = "Scream"
             }else if(age < 28){
@@ -17,7 +20,7 @@
             }else{
                 film = "Sjunde inseglet";
             }
-            }
+            
             
             
             alert("Rekommenderad film: " + film);
